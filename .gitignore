@@ -1,0 +1,6 @@
+*.pkl
+*.env
+.env
+__pycache__/
+*.pyc
+data/extracted_audit.txt
