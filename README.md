@@ -109,7 +109,7 @@ Open http://localhost:8501 in your browser.
 5. **Full Report** - detailed analysis with severity 
    chart and downloadable report
 
-Note: the first load takes around 45 minutes to embed 
+Note: the first load takes around 30 minutes to embed 
 all 645 chunks. After that it uses a cached file and 
 loads instantly.
 
