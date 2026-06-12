@@ -2,7 +2,7 @@ import numpy as np
 from embeddings import cosine_similarity, titan_embedding
 
 # search the dataframe for most relevant chunks
-def search(df, query, top_n=80, min_score=0.35):
+def search(df, query, top_n=80, min_score=0.25):
     query_vec = titan_embedding(query)
     scores = []
     for i, row in df.iterrows():
